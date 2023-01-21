@@ -41,14 +41,17 @@ public class Main {
 
 
         List<Products> productsList = new ArrayList<>(List.of(candies1, candies2, chocolate1, chocolate2,
-                lollipops1, lollipops2, curd1, curd2, milk1, milk2, juice1, juice2, kvass1, kvass2,
+                lollipops1, lollipops2, curd1, curd2, milk2, juice1, juice2, kvass1, kvass2,
                 lemonade1, lemonade2, pinocchio1));
 
 
         VendingMachine vendingMachine = new VendingMachine(productsList);
 
-
+        /**
+         * осуществил  возможность добавлять продукты в торговый аппарат
+         */
         vendingMachine.addProducts(pinocchio2);
+        vendingMachine.addProducts(milk1);
 
         for (Products products:vendingMachine.getProductsList()){
             System.out.println(products);

@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class VendingMachine {
-    private List<Products> productsList = new ArrayList<>();
+    private List<Products> productsList;
 
     public List<Products> getProductsList() {
         return productsList;
