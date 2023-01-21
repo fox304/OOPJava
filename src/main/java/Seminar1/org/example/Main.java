@@ -1,17 +1,20 @@
-package org.example;
+package Seminar1.org.example;
 
-import Beverages.Juice;
-import Beverages.Kvass;
-import Beverages.Lemonade;
-import Beverages.Pinocchio;
-import Dairy.Curd;
-import Dairy.Milk;
-import Sweets.Candies;
-import Sweets.Chololate;
-import Sweets.Lollipops;
+
+import Seminar1.Beverages.Juice;
+import Seminar1.Beverages.Kvass;
+import Seminar1.Beverages.Lemonade;
+import Seminar1.Beverages.Pinocchio;
+import Seminar1.Dairy.Curd;
+import Seminar1.Dairy.Milk;
+import Seminar1.Sweets.Candies;
+import Seminar1.Sweets.Chololate;
+import Seminar1.Sweets.Lollipops;
 
 import java.util.ArrayList;
 import java.util.List;
+
+
 
 public class Main {
     public static void main(String[] args) {

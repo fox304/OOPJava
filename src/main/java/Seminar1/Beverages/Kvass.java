@@ -1,4 +1,4 @@
-package Beverages;
+package Seminar1.Beverages;
 
 public class Kvass extends NaturalDrinks{
     private double alcogol;

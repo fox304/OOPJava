@@ -1,4 +1,4 @@
-package Beverages;
+package Seminar1.Beverages;
 
 public class NaturalDrinks extends Drinks{
     private int countFruits;

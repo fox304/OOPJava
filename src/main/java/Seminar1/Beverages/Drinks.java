@@ -1,6 +1,6 @@
-package Beverages;
+package Seminar1.Beverages;
 
-import org.example.Products;
+import Seminar1.org.example.Products;
 
 public class Drinks extends Products {
     private String color;

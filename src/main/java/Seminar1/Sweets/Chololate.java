@@ -1,4 +1,4 @@
-package Sweets;
+package Seminar1.Sweets;
 
 public class Chololate extends  Sweets{
     private  String thickable;

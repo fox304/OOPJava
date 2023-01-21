@@ -1,6 +1,6 @@
-package Sweets;
+package Seminar1.Sweets;
 
-import org.example.Products;
+import Seminar1.org.example.Products;
 
 public class Sweets extends Products {
     private double sugar;

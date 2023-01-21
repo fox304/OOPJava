@@ -1,6 +1,6 @@
-package Dairy;
+package Seminar1.Dairy;
 
-import org.example.Products;
+import Seminar1.org.example.Products;
 
 public class DairyProducts extends Products {
     private double fat;

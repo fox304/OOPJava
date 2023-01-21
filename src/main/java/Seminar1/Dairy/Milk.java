@@ -1,4 +1,4 @@
-package Dairy;
+package Seminar1.Dairy;
 
 public class Milk extends DairyProducts {
     private String shape;

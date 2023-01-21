@@ -1,4 +1,4 @@
-package Dairy;
+package Seminar1.Dairy;
 
 public class Curd extends DairyProducts {
     private String consistence;

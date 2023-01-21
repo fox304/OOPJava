@@ -1,4 +1,4 @@
-package Sweets;
+package Seminar1.Sweets;
 
 public class Candies extends  Sweets{
     private String shape;

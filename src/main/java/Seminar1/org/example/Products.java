@@ -1,4 +1,4 @@
-package org.example;
+package Seminar1.org.example;
 
 public class Products {
     private int price;
