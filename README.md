@@ -14,3 +14,4 @@ ___
 >> **Sweets**: _( Сладости )_
 >>> Candies, Chololate, Lollipops _( Конфеты, Шоколад, Леденцы )_
 ---
+* Запуск программы осуществляется с директории    **src/main/java/Seminar1/org.example/** 
