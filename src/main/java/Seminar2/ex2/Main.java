@@ -11,7 +11,9 @@ public class Main {
                 .addAnimal(new Horse("Ignat",10))
                 .addAnimal(new Duck("Masha",12))
                 .addAnimal(new Dolphin("Лёвка",3,8))
-                .addAnimal(new Frog("Квакша",5,true));
+                .addAnimal(new Frog("Квакша",5,true))
+                .addAnimal(new Duck("Donald",12))
+                .addAnimal(new Horse("Витязь",11));
 
         System.out.println("---------------------------------");
         for (Animal an: zoo.getAnimals()){
@@ -31,6 +33,12 @@ public class Main {
 
             System.out.printf("%s  скорость бега : %s\n",swim,swim.speedSwim());
         }
+        System.out.println("-------------Летуны--------------------");
+        for(Flyable fly: zoo.getFlier()){
+
+            System.out.printf("%s  скорость полета : %s\n",fly,fly.speedOfFly());
+        }
+
         System.out.println();
         System.out.println("---------------------------------");
         System.out.printf("Максимальная скорость бегуна: %s",zoo.getChampionsOfRun());
