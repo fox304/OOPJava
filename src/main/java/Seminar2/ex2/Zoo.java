@@ -1,5 +1,7 @@
 package Seminar2.ex2;
 
+import Seminar2.Homework.Swimable;
+
 import java.util.ArrayList;
 import java.util.List;
 public class Zoo {
@@ -46,6 +48,14 @@ public class Zoo {
         return fly;
 
     }
+    List<Swimable> getSwim () {
+        List<Swimable> swim = new ArrayList<>();
+        for (Animal an : animals) {
+            if (an instanceof Swimable) swim.add((Swimable) an); // закащиваем
+        }
+        return swim;
+    }
+
     int getChampionsOfRun (){
         int max = 0;
         for(Runable run:getRunner()){
@@ -53,6 +63,13 @@ public class Zoo {
         }
         return max;
 
+    }
+    int getChampionsOfSwim () {
+        int max = 0;
+        for (Swimable swim : getSwim()) {
+            if (max < swim.speedSwim()) max = swim.speedSwim();
+        }
+        return max;
     }
 
 }

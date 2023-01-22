@@ -21,7 +21,7 @@ public abstract class Animal implements Speakable{
 
     @Override
     public String toString() {
-        return String.format("Name is %s , box num : %s ;",this.name,this.box);
+        return String.format("Животное %s , Name is %s , box num : %s ;",this.getClass().getSimpleName(),this.name,this.box);
     }
     public abstract String say();
 }
